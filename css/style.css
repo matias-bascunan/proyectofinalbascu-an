@@ -1,0 +1,78 @@
+.encabezado {
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    display: flex;
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+
+.menuhorizontal {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    align-content: space-around;
+    margin
+
+}
+
+.linkmenu {
+    padding: 10px;
+    border-radius: 5px;
+    border-color: 1px solid blue;
+    text-decoration-color: blue;
+}
+
+.linkmenu a:hover {
+    background-color: rgb(152, 152, 255);
+    text-decoration-color: white;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+#titulocentral {
+    text-align: center;
+     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: blue;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    
+    
+  }
+  
+  .grid-item { width: 350px;
+    height: 350px;
+    justify-content: center;
+    border: 1,5px solid black;
+    background-color: blanchedalmond;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+  }
+  .grid-item img {
+    padding: 10px;
+    padding-left: 60px;
+    max-width: 65%;
+    max-height: 65%;
+    align-content: center;
+    
+
+  }
+  .grid-item boton-agregar {
+    margin-bottom: 10px;
+
+
+
+  }
+
