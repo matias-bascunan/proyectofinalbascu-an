@@ -186,3 +186,62 @@ font-weight: 900;
 
   }
 
+section form {
+padding: 1.5rem;
+display: flex;
+flex-wrap: wrap;
+max-width: 500px;
+border-radius: 20px;
+border: 2px solid rgba(0, 0, 0, 0.20);
+}
+
+section form label {
+width: 100px;
+padding: 0.2em;
+margin-bottom: 0.5em;
+}
+
+section form input {
+width: 100%;
+margin-bottom: 1.0em;
+padding: 0.8em;
+border-radius: 9px;
+border: none;
+outline-color: #003DFF;
+background-color: #eee;
+
+}
+section form input [tipe='submit'] {
+
+  margin-top: 1.5em;
+  background-color: #003DFF;
+  color: #eee; 
+  font-family: var(--font-mono);
+  transition: var(--transition);
+}
+
+section form input [tipe='submit']:active {
+
+  transform: scale(0.97);
+}
+section p {
+  margin-top: 1.5em;
+
+}
+section p a {
+  text-decoration: none;
+  color: #003DFF;
+}
+
+.button{
+  background-color: #003DFF;
+  color: #eee; 
+  font-family: var(--font-mono);
+  transition: var(--transition);
+  border: none;
+  padding: 0,5em 1em;
+  border-radius: 9px;
+  margin-top: 1.5em;
+  font-size: 1em;
+
+}
