@@ -59,8 +59,8 @@ img{
 .contador{
   position: absolute;
   background-color: black;
-  top: 30%;
-  right: 0;
+  top: 75%;
+  right: -1em;
   color: white;
   justify-content: center;
   align-items: center;
@@ -70,11 +70,11 @@ img{
   border-radius: 50%;
 }
 
-.container-icon {
+.icon-container {
   position: relative;
 
 }
-.container-cart-products-hidden-cart {
+.container-cart-products {
 position: absolute;
 top: 50px;
 right: 0;
@@ -83,6 +83,11 @@ width: 400px;
 z-index: 1;
 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
 border-radius: 10px;
+}
+
+.hidden-cart {
+
+  display: none;
 }
 .cart-product {
 display: flex;
