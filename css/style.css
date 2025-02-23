@@ -15,6 +15,16 @@
     margin
 
 }
+.boton-login {
+  font-weight: 300;
+  font-size: 20px;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px;
+  
+}
 
 .icon-cart {
  
@@ -94,6 +104,7 @@ display: flex;
 justify-content: space-between;
 padding: 30px;
 align-items: center;
+align-content: center;
 border-bottom: 1px solid black;
 }
 
@@ -101,11 +112,16 @@ border-bottom: 1px solid black;
 display: flex;
 justify-content: space-between;
 flex: 0.8;
+align-items: center;
 
 }
 .icon-close {
   width: 25px;
   height: 25px;
+  align-items: center;
+}
+.icon-close:hover {
+  color: #003DFF;
 }
 .contador-productos{ font-size: 20px;
 
